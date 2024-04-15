@@ -1,0 +1,403 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'MontserratRegular';
+    src: url('../Fonts/Montserrat-Regular.ttf');
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #DAC892;
+    display: flex;
+    margin-top: 35px;
+    position: fixed;
+    z-index: 100;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #F2EDDD;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#cajaLogo{
+    /* background-color: blue; */
+    margin-left: 5%;
+    width: 100px;
+    height: auto;
+    position: relative;
+    bottom: 70%;
+}
+
+.logo{
+    width: auto;
+    height: 140px;
+}
+
+#cajaMenu{
+    /* background-color: green; */
+    margin-left: 30%;
+    position: relative;
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cajaMenu ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#cajaMenu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+#cajaMenu ul li a{
+    list-style: none;
+    color: #595A28;
+    text-decoration: none;
+    display: flex;
+    margin-left: 50px;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.7rem;
+}
+
+#menuRight{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+#menuRight a img{
+    margin-left: 30px;
+}
+
+#anuncio{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    /* background-color: red; */
+
+}
+
+.splide{
+    background-color: #F2EDDD;
+}
+
+.splide button{
+    display: none;
+    align-items: center;
+}
+
+.splide img{
+    height: 500px;
+    width: 100%;
+    margin-top: 152px;
+}
+
+#homeProduct{
+    width: 100%;
+    height: 800px;
+    background-color: #F2EDDD;
+    display: flex;
+}
+
+.imgHomeProduct1{
+    width: 33.33%;
+}
+
+.imgHomeProduct1 h1{
+    bottom: 20%;
+    position: relative;
+    left: 50%;
+    font-family: "Raleway", sans-serif;
+}
+
+.imgHomeProduct1 img{
+    scale: 50%;
+    right: 10%;
+    position: relative;
+    bottom: 2%;
+}
+
+.imgHomeProduct2{
+    width: 33.33%;
+}
+
+.imgHomeProduct2 h1{
+    position: relative;
+    left: 35%;
+    top: 46%;
+    font-family: "Raleway", sans-serif;
+}
+
+.imgHomeProduct2 img{
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
+
+.imgHomeProduct3{
+    width: 33.33%;
+}
+
+.imgHomeProduct3 img{
+    position: relative;
+    top: 25%;
+}
+
+.imgHomeProduct3 h1{
+    position: relative;
+    left: 30%;
+    top: 42%;
+    font-family: "Raleway", sans-serif;
+}
+
+#cajaBotonHomeProduct{
+    width: 100%;
+    height: auto;
+    background-color: #F2EDDD;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#cajaBotonHomeProduct a{
+    background-color: #595A28;
+    color: white;
+    text-decoration: none;
+    width: 13vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-family: "Raleway", sans-serif;
+    border-radius: 10px;
+    margin-bottom: 20vh;
+}
+
+.h1Noticias{
+    font-family: "Raleway", sans-serif;
+    font-size: 5rem;
+    padding-bottom: 10vh;
+    background-color: #F2EDDD;
+    padding-left: 220px;
+}
+
+#noticias{
+    width: 100%;
+    height: 50vh;
+    background-color: #F2EDDD;
+    display: flex;
+    justify-content: center;
+}
+
+#noticias img{
+    width: 100%;
+    height: auto;
+}
+
+.cajaNoticias{
+    width: calc(100vw / 3.7);
+    height: auto;
+
+    padding: 0 50px;
+}
+
+.cajaNoticias div
+{
+    display: flex;
+    flex-direction: column;
+
+    align-items: start;
+    justify-content: center;
+}
+
+.cajaNoticias div h2,
+.cajaNoticias div h3,
+.cajaNoticias div p
+{
+    margin-bottom: 2vh;
+    font-family: "Raleway", sans-serif;
+}
+
+#aboutUS{
+    width: 100%;
+    height: 652px;
+    background-image: url(..//Media/aboutUs.png);
+    margin-bottom: 150px;
+}
+
+#aboutUS h1{
+    color: white;
+    font-size: 3.5rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+.cajaBotonAboutUs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonAboutUs{
+    background-color: #595A28;
+    color: white;
+    text-decoration: none;
+    width: 14vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: "Raleway", sans-serif;
+    border-radius: 10px;
+    margin-bottom: 20vh;
+}
+
+footer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+#cajaLogoFooter{
+    padding-right: 60px;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    line-height: 40px;
+}
+
+footer ul{
+    width: 100%;
+    margin-right: 100px;
+}
+
+#footer2{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cajaLogoFooter2{
+    margin-right: 40px;
+}
+
+.cajaLogoFooter2 img{
+    width: 80%;
+    height: auto;
+}
+
+#footer2 ul li{
+    list-style: none;
+}
+
+#footer2 ul{
+    display: flex;
+}
+
+#footer2 ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 1.4rem;
+    font-family: "Raleway", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+.raleway-light {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.raleway-regular {
+    font-family: "Raleway-Regular", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.raleway-medium {
+    font-family: "Raleway-Medium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.raleway-semibold {
+    font-family: "Raleway-Semibold", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.raleway-Bold {
+    font-family: "Raleway-Bold", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.raleway-Black {
+    font-family: "Raleway-Black", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.montserrat-regular {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+

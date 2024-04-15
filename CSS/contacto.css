@@ -1,0 +1,414 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #DAC892;
+    display: flex;
+    margin-top: 35px;
+    position: fixed;
+    z-index: 100;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #F2EDDD;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#cajaLogo{
+    /* background-color: blue; */
+    margin-left: 5%;
+    width: 100px;
+    height: auto;
+    position: relative;
+    bottom: 70%;
+}
+
+.logo{
+    width: auto;
+    height: 140px;
+}
+
+#cajaMenu{
+    /* background-color: green; */
+    margin-left: 30%;
+    position: relative;
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cajaMenu ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#cajaMenu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+#cajaMenu ul li a{
+    list-style: none;
+    color: #595A28;
+    text-decoration: none;
+    display: flex;
+    margin-left: 50px;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.7rem;
+}
+
+#menuRight{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+#menuRight a img{
+    margin-left: 30px;
+}
+
+#heather{
+    width: 100%;
+    height: 725px;
+    align-items: center;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+#heather img{
+    width: 100%;
+}
+
+.h1contacto{
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 1vh;
+    background-color: #F2EDDD;
+    padding-left: 120px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.pcontacto{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 1vh;
+    background-color: #F2EDDD;
+    padding-left: 120px;
+    /* margin-top: 100px; */
+    margin-bottom: 100px;
+    line-height: 20px;
+}
+
+#cajaContacto{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+#contacto{
+    width: 50%;
+    height: 2000px;
+}
+
+.form1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
+.form1 p{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.input1{
+    width: 350px;
+    height: 45px;
+    border-color: #C9CFD7;
+    border-style: solid;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-family: "Raleway", sans-serif;
+}
+
+.div1{
+    margin-right: 100px;
+}
+
+.form2{
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
+.form2 p{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.input2{
+    width: 200px;
+    height: 45px;
+    border-color: #C9CFD7;
+    border-style: solid;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-family: "Raleway", sans-serif;
+    
+}
+
+.div2{
+    margin-right: 100px;
+}
+
+.form3{
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
+.form3 p{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.input3{
+    width: 800px;
+    height: 45px;
+    border-color: #C9CFD7;
+    border-style: solid;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-family: "Raleway", sans-serif;
+    
+}
+
+.div3{
+    margin-right: 100px;
+}
+
+.form4{
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.form4 p{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.div4{
+    margin-right: 100px;
+}
+
+#textarea1{
+    border-color: #C9CFD7;
+    border-style: solid;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-family: "Raleway", sans-serif;
+    text-align: justify;
+}
+
+.form5{
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
+.input5{
+    scale: 200%;
+    margin-left: 5px;
+}
+
+.form5 p{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+.div5{
+    margin-right: 100px;
+    display: flex;
+}
+
+.cajaBotones{
+    width: 70%;
+    height: 500px;
+    display: flex;
+    margin-left: 120px;
+    margin-bottom: 100px;
+    /* background-color: red; */
+}
+
+.boton1{
+    background-color: white;
+    color: #595A28;
+    text-decoration: none;
+    width: 13vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-family: "Raleway", sans-serif;
+    border-radius: 10px;
+    margin-bottom: 20vh;
+    border-color: #C9CFD7;
+    border-style: solid;
+    border-radius: 8px;
+    margin-right: 80px;
+}
+
+.boton2{
+    background-color: #595A28;
+    color: white;
+    text-decoration: none;
+    width: 13vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-family: "Raleway", sans-serif;
+    border-radius: 10px;
+    margin-bottom: 20vh;
+}
+   
+
+#infoContacto{
+    width: 50%;
+    height: 370px;
+    /* background-color: red; */
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.cajaInfoContacto{
+    width: 55%;
+    height: auto;
+    background-color: white;
+    padding: 40px;
+    border: solid 2px #C9CFD7;
+    border-radius: 15px;
+}
+
+.numeroTelef{
+    font-family: "Raleway", sans-serif;
+    font-size: 3rem;
+    color: #595A28;
+}
+
+.cajaInfoContacto p{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.cajaInfoContacto a{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #595A28;
+}
+
+.textoCajaInfoContacto{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+footer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+#cajaLogoFooter{
+    padding-right: 60px;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    line-height: 40px;
+}
+
+footer ul{
+    width: 100%;
+    margin-right: 100px;
+}
+
+#footer2{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cajaLogoFooter2{
+    margin-right: 40px;
+}
+
+.cajaLogoFooter2 img{
+    width: 80%;
+    height: auto;
+}
+
+#footer2 ul li{
+    list-style: none;
+}
+
+#footer2 ul{
+    display: flex;
+}
+
+#footer2 ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 1.4rem;
+    font-family: "Raleway", sans-serif;
+}
