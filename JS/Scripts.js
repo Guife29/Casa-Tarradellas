@@ -1,7 +1,7 @@
 function showCart(){
-    console.log("Enseño el menu");
+    console.log("Enseno el menu");
     // document.getElementById("menuDesplegable").style.display = "block";
-    document.getElementById("menuDesplegable").style.right = "0px";
+    document.getElementById("cartDespegable").style.right = "0px";
 
     var vaiable1 = 5;
 
@@ -11,6 +11,5 @@ function showCart(){
 function hideCart(){
     console.log("Escondo el menu");
     // document.getElementById("menuDesplegable").style.display = "none";
-    document.getElementById("menuDesplegable").style.right = "-75%";
-
+    document.getElementById("cartdesplegable").style.righ = "-75%";
 }
