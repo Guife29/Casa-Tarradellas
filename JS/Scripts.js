@@ -16,14 +16,13 @@ function hideCart(){
 
 // Carrousell de imagenes de recomendados
 
-const scrollers = document.querySelectorAll(".scroller");
+const scrollers = document.getElementById("scroller");
 
 if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches){
     addAnimation();
+    console.log("entrado")
 }
 
 function addAnimation(){
-    scrollers.forEach((scroller) => {
-        scroller.setAttribute("data-animated", true);
-    });
-}
+        scrollers.setAttribute("data-animated", true);
+    };

@@ -224,15 +224,7 @@ body{
 
 #scroller{
     width: 100%;
-    height: 700px;
-}
-
-#scroller[data-animated=true]{
-    overflow: hidden;
-}
-
-#scroller[data-animated=true] .innerScroller{
-    flex-wrap: nowrap;
+    height: 400px;
 }
 
 .innerScroller{
@@ -242,6 +234,14 @@ body{
 
 .innerScroller img{
     margin: 0 40px;
+}
+
+#scroller[data-animated=true]{
+    overflow: hidden;
+}
+
+#scroller[data-animated=true] .innerScroller{
+    flex-wrap: nowrap;
 }
 
 footer{
