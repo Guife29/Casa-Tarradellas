@@ -222,9 +222,26 @@ body{
     margin-bottom: 30px;
 }
 
-#carrouselPizzas{
+#scroller{
     width: 100%;
-    height: 400px;
+    height: 700px;
+}
+
+#scroller[data-animated=true]{
+    overflow: hidden;
+}
+
+#scroller[data-animated=true] .innerScroller{
+    flex-wrap: nowrap;
+}
+
+.innerScroller{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.innerScroller img{
+    margin: 0 40px;
 }
 
 footer{
