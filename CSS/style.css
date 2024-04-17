@@ -101,6 +101,17 @@ body{
     margin: 20px;
 }
 
+.menuClose{
+    display: flex;
+    align-items: center;
+}
+
+.menuClose h1{
+    margin-left: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.7rem;
+}
+
 .compra{
     display: flex;
     margin-left: 30px;
@@ -116,6 +127,60 @@ body{
 
 .compra img{
     height: 180px;
+}
+
+.compra input{
+    width: 80px;
+    height: 30px;
+    margin-left: 45px;
+    font-size: 1rem;
+}
+
+.compra2{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.compra2 p{
+    font-family: "Raleway", sans-serif;
+    margin-left: 15px;
+    font-size: 1.5rem;
+}
+
+.compra2 img{
+    height: 120px;
+}
+
+.compra2 input{
+    width: 80px;
+    height: 30px;
+    margin-left: 50px;
+}
+
+.compra3{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.compra3 p{
+    font-family: "Raleway", sans-serif;
+    margin-left: 65px;
+    font-size: 1.5rem;
+}
+
+.compra3 img{
+    height: 180px;
+    margin-left: 25px;
+}
+
+.compra3 input{
+    width: 80px;
+    height: 30px;
+    margin-left: 70px;
 }
 
 #anuncio{
