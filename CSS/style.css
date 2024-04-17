@@ -84,6 +84,40 @@ body{
     margin-left: 30px;
 }
 
+#cartDesplegable{
+    width: 30vw;
+    height: 100vh;
+    background-color: #F2EDDD;
+    position: fixed;
+    top: 0px;
+    display: block;
+    right: -75%;
+    transition-property: right;
+    transition-duration: 1s;
+}
+
+.iconeClose{
+    cursor: pointer;
+    margin: 20px;
+}
+
+.compra{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.compra p{
+    font-family: "Raleway", sans-serif;
+    margin-left: 40px;
+    font-size: 1.5rem;
+}
+
+.compra img{
+    height: 180px;
+}
+
 #anuncio{
     width: 100%;
     height: 800px;
