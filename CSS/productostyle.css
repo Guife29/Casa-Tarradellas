@@ -224,7 +224,7 @@ body{
 
 #scroller{
     width: 100%;
-    height: 400px;
+    height: auto;
     white-space: nowrap;
 }
 
@@ -274,6 +274,7 @@ footer{
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
+    margin-top: 150px;
 }
 
 #cajaLogoFooter{
