@@ -227,21 +227,31 @@ body{
     height: 400px;
 }
 
-.innerScroller{
+#innerScroller{
     display: flex;
     flex-wrap: wrap;
 }
 
-.innerScroller img{
+#innerScroller img{
     margin: 0 40px;
 }
 
 #scroller[data-animated=true]{
     overflow: hidden;
+    -webkit-mask: linear-gradient(90deg,  traasparent, white 20%, white 80%, transparent);
+    mask: linear-gradient(90deg,  traasparent, white);
 }
 
 #scroller[data-animated=true] .innerScroller{
+    width: max-content;
     flex-wrap: nowrap;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll{
+    to{
+        transform: translate(calc(-50% - 0.5rem));
+    }
 }
 
 footer{

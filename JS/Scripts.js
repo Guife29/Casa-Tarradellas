@@ -20,9 +20,14 @@ const scrollers = document.getElementById("scroller");
 
 if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches){
     addAnimation();
-    console.log("entrado")
+    console.log("entrado");
 }
 
 function addAnimation(){
         scrollers.setAttribute("data-animated", true);
-    };
+
+        const innerScroller = document.getElementById("innerScroller");
+        const scrollerContent = Array.from(innerScroller.children);
+
+        console.log(scrollerContent);
+};
