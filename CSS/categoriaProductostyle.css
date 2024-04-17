@@ -178,7 +178,7 @@ body{
     align-items: center;
     text-align: center;
     padding-left: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 120px;
 }
 
 .cajaCategoriaProd3 ul li{
@@ -200,6 +200,33 @@ body{
     height: 400px;
 }
 
+#scroller{
+    width: 100%;
+    height: auto;
+    white-space: nowrap;
+}
+
+#innerScroller{
+    display: inline-block;
+    animation: 15s slide infinite linear;
+}
+
+#innerScroller img{
+    margin: 0 40px;
+}
+
+#scroller:hover #innerScroller{
+    animation-play-state: paused;
+}
+
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }to{
+        transform: translateX(-100%);
+    }
+}
+
 footer{
     height: auto;
     width: 100%;
@@ -207,6 +234,7 @@ footer{
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
+    margin-top: 120px;
 }
 
 #cajaLogoFooter{
