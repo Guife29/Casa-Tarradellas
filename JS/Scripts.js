@@ -25,3 +25,34 @@ function hideModalSend(){
     document.getElementById("filtreOpac").style.display = "none";
     document.documentElement.style.overflow = "auto"
 }
+
+// codi per efecte del logo segons scroll
+
+window.onscroll = function(){
+    infoScroll()
+    console.log(window.pageYOffset);
+}
+
+function infoScroll(){
+    if (document.documentElement.scrollTop>790 && document.documentElement.scrollTop<1840) {
+
+        document.getElementById("infoContacto").classList.add("quedateQuieto");
+
+        document.getElementById("infoContacto").classList.remove("ahiTeQuedas");
+
+        console.log("si");
+        // document.getElementById("infoContacto").style.position = "fixed";
+    }
+    else if (document.documentElement.scrollTop>1840 || document.documentElement.scrollTop<790){
+        console.log("no");
+        // document.getElementById("infoContacto").style.position = "relative";
+        document.getElementById("infoContacto").classList.remove("quedateQuieto");
+
+        if(document.documentElement.scrollTop>790){
+            document.getElementById("infoContacto").classList.add("ahiTeQuedas");
+            console.log("entrando");
+        }
+        
+    }
+
+}

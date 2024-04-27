@@ -171,6 +171,7 @@ body{
     width: 100%;
     height: auto;
     display: flex;
+    position: relative;
 }
 
 #contacto{
@@ -372,6 +373,18 @@ body{
     /* text-align: center; */
     justify-content: center;
     /* align-items: center; */
+}
+
+.quedateQuieto{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+}
+
+.ahiTeQuedas{
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
 }
 
 .cajaInfoContacto{
