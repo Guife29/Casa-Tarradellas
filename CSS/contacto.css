@@ -79,6 +79,30 @@ body{
     margin-left: 30px;
 }
 
+#filtreOpac{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9;
+    position: absolute;
+    top: 0px;
+    display: none;
+    position: fixed;
+}
+
+
+#modalSend{
+    width: 50vw;
+    height: 50vh;
+    background-color: pink;
+    position: absolute;
+    left: 50%;
+    top: 270%;
+    transform: translate(-50%, -160%);
+    z-index: 10;
+    display: none;
+}
+
 #cartDesplegable{
     width: 30vw;
     height: 100vh;

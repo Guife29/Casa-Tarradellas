@@ -14,27 +14,16 @@ function hideCart(){
     document.getElementById("cartDesplegable").style.right = "-75%";
 }
 
-// Carrousell de imagenes de recomendados
+function showModalSend(){
+    document.getElementById("modalLogin").style.display = "block";
+    document.getElementById("filtreOpac").style.display = "block";
+    document.documentElement.style.overflow = "hidden"
 
-// const scrollers = document.getElementById("scroller");
+}
 
-// if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches){
-//     addAnimation();
-//     console.log("entrado");
-// }
+function hideModalSend(){
+    document.getElementById("modalLogin").style.display = "none";
+    document.getElementById("filtreOpac").style.display = "none";
+    document.documentElement.style.overflow = "auto"
 
-// function addAnimation(){
-//         scrollers.setAttribute("data-animated", true);
-
-//         const innerScroller = document.getElementById("innerScroller");
-//         const scrollerContent = Array.from(innerScroller.children);
-
-//         console.log(scrollerContent);
-
-//         scrollerContent.forEach((item) =>{
-//             const duplicatedItem = item.cloneNode(true);
-//             duplicatedItem.setAttribute("aria-hidden", true);
-//             innerScroller.appendChild(duplicatedItem);
-//         });
-// };
-
+}
