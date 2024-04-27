@@ -90,17 +90,36 @@ body{
     position: fixed;
 }
 
+.iconeClose{
+    margin: 20px;
+    cursor: pointer;
+}
 
 #modalSend{
     width: 50vw;
     height: 50vh;
-    background-color: pink;
+    background-color: #F2EDDD;
     position: absolute;
     left: 50%;
     top: 270%;
     transform: translate(-50%, -160%);
     z-index: 10;
     display: none;
+}
+
+#modalSend h1{
+    font-family: "Raleway", sans-serif;
+    position: relative;
+    left: 5%;
+    top: 15%;
+}
+
+#modalSend p{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    position: relative;
+    left: 5%;
+    top: 25%;
 }
 
 #cartDesplegable{
@@ -341,6 +360,7 @@ body{
     font-family: "Raleway", sans-serif;
     border-radius: 10px;
     margin-bottom: 20vh;
+    cursor: pointer;
 }
    
 

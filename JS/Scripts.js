@@ -15,15 +15,13 @@ function hideCart(){
 }
 
 function showModalSend(){
-    document.getElementById("modalLogin").style.display = "block";
+    document.getElementById("modalSend").style.display = "block";
     document.getElementById("filtreOpac").style.display = "block";
     document.documentElement.style.overflow = "hidden"
-
 }
 
 function hideModalSend(){
-    document.getElementById("modalLogin").style.display = "none";
+    document.getElementById("modalSend").style.display = "none";
     document.getElementById("filtreOpac").style.display = "none";
     document.documentElement.style.overflow = "auto"
-
 }
