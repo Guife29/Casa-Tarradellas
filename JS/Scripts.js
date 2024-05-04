@@ -24,6 +24,7 @@ function hideModalSend(){
     document.getElementById("modalSend").style.display = "none";
     document.getElementById("filtreOpac").style.display = "none";
     document.documentElement.style.overflow = "auto"
+    location.reload();
 }
 
 // codi per efecte del logo segons scroll

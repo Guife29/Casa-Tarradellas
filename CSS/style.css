@@ -578,16 +578,19 @@ footer ul{
     }
 
     .imgHomeProduct2 img, .imgHomeProduct3 img {
-        margin-left: auto;
-        margin-right: auto;
-        scale: 50%;
+        scale: 50%;  
     }
 
     .imgHomeProduct1 img{
-        margin-left: auto;
-        margin-right: auto;
         scale: 30%;
+        text-align: center;
         
+    }
+
+    .imgHomeProduct1{
+        display: flex;
+        justify-content: center;
+        padding-left: 150px;
     }
 
     #cajaBotonHomeProduct {
