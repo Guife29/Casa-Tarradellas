@@ -26,11 +26,33 @@ function hideModalSend(){
     document.documentElement.style.overflow = "auto"
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    var hamburgerIcon = document.querySelector('.hamburger-icon');
-    var menu = document.getElementById('menu');
+// codi per efecte del logo segons scroll
 
-    hamburgerIcon.addEventListener('click', function() {
-        menu.classList.toggle('active');
-    });
-});
+window.onscroll = function(){
+    infoScroll()
+    console.log(window.pageYOffset);
+}
+
+function infoScroll(){
+    if (document.documentElement.scrollTop>790 && document.documentElement.scrollTop<1840) {
+
+        document.getElementById("infoContacto").classList.add("quedateQuieto");
+
+        document.getElementById("infoContacto").classList.remove("ahiTeQuedas");
+
+        console.log("si");
+        // document.getElementById("infoContacto").style.position = "fixed";
+    }
+    else if (document.documentElement.scrollTop>1840 || document.documentElement.scrollTop<790){
+        console.log("no");
+        // document.getElementById("infoContacto").style.position = "relative";
+        document.getElementById("infoContacto").classList.remove("quedateQuieto");
+
+        if(document.documentElement.scrollTop>790){
+            document.getElementById("infoContacto").classList.add("ahiTeQuedas");
+            console.log("entrando");
+        }
+        
+    }
+
+}
