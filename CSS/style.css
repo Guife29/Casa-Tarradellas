@@ -443,6 +443,182 @@ footer ul{
 }
 
 
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    nav, #anuncio, .splide, #homeProduct, #noticias, #aboutUS, footer, #footer2 {
+        max-width: 768px;
+    }
+
+    nav {
+        height: 50px; /* Altura más pequeña */
+        width: 768px;
+        margin-top: 50px; /* Margen superior más pequeño */
+        align-items: center;
+    }
+
+    .hamburger-icon {
+        width: 30px;
+        height: 2px;
+        background-color: #595A28;
+        position: relative;
+        transition: background-color 0.3s ease;
+    }
+    
+    .hamburger-icon::before,
+    .hamburger-icon::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #595A28;
+        transition: transform 0.3s ease;
+    }
+    
+    .hamburger-icon::before {
+        top: -8px;
+    }
+    
+    .hamburger-icon::after {
+        bottom: -8px;
+    }
+    
+    /* Estilos para el menú hamburguesa */
+    /* #menu {
+        display: none;
+        flex-direction: column;
+        background-color: #DAC892;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 20px 0;
+        z-index: 99;
+    } */
+    
+    #menu.active {
+        display: flex;
+    }
+    
+    #cajaMenu ul {
+        flex-direction: column;
+    }
+    
+    #cajaMenu ul li {
+        margin: 10px 0;
+    }
+    
+    #cajaMenu ul li a {
+        font-size: 1.2rem;
+    }
+
+    .logo {
+        height: 120px; /* Altura más pequeña para el logo */
+        position: relative;
+        margin-top: 70px;
+    }
+
+    #cajaMenu {
+        margin-left: 10%; /* Espacio más pequeño a la izquierda */
+    }
+
+    #menuRight a img {
+        margin-left: 15px; /* Espacio más pequeño entre los elementos del menú a la derecha */
+    }
+
+    #cajaMenu ul li a {
+        font-size: 1.3rem; /* Tamaño de fuente más pequeño */
+    }
+
+    #anuncio video {
+        width: 768px;
+        height: auto;
+    }
+
+    #anuncio{
+        width: 768px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    #cajaLogo, #cajaMenu {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    #menuRight {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    #menuRight a img {
+        margin-left: 15px;
+    }
+
+    .splide img {
+        margin-top: 100px; /* Ajusta el margen superior para las imágenes del slider */
+    }
+    .splide img {
+        width: 100%;
+        height: auto;
+    }
+
+    .imgHomeProduct1 h1, .imgHomeProduct2 h1, .imgHomeProduct3 h1 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .imgHomeProduct2 img, .imgHomeProduct3 img {
+        margin-left: auto;
+        margin-right: auto;
+        scale: 50%;
+    }
+
+    .imgHomeProduct1 img{
+        margin-left: auto;
+        margin-right: auto;
+        scale: 30%;
+        
+    }
+
+    #cajaBotonHomeProduct {
+        margin-bottom: 10vh;
+    }
+
+    .h1Noticias {
+        padding-left: 20px; /* Ajusta el padding izquierdo para el título de noticias */
+    }
+
+    #noticias, #aboutUS {
+        height: auto;
+    }
+
+    .cajaNoticias {
+        width: 100%;
+        padding: 0;
+    }
+
+    .botonAboutUs {
+        margin-bottom: 10vh;
+    }
+
+    footer ul {
+        margin-right: 0;
+    }
+
+    #footer2 ul {
+        flex-wrap: wrap;
+    }
+}
 
 
 
