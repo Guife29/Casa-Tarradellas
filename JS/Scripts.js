@@ -56,3 +56,12 @@ function infoScroll(){
     }
 
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    var hamburgerIcon = document.querySelector('.hamburger-icon');
+    var menu = document.getElementById('menu');
+
+    hamburgerIcon.addEventListener('click', function() {
+        menu.classList.toggle('active');
+    });
+});
