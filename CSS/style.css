@@ -514,6 +514,7 @@ footer ul{
         height: 120px; /* Altura más pequeña para el logo */
         position: relative;
         margin-top: 70px;
+        margin-left: 50px;
     }
 
     #cajaMenu {
@@ -567,6 +568,10 @@ footer ul{
     .splide img {
         width: 100%;
         height: auto;
+    }
+
+    #compra{
+        
     }
 
     .imgHomeProduct1 h1, .imgHomeProduct2 h1, .imgHomeProduct3 h1 {

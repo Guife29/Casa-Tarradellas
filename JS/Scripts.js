@@ -30,6 +30,8 @@ function hideMenu(){
     document.getElementById("cajaMenu").style.right = "-125%";
 }
 
+
+
 function showModalSend(){
     document.getElementById("modalSend").style.display = "block";
     document.getElementById("filtreOpac").style.display = "block";
@@ -43,7 +45,7 @@ function hideModalSend(){
     location.reload();
 }
 
-// codi per efecte del logo segons scroll
+// codi per efecte de info segons scroll
 
 window.onscroll = function(){
     infoScroll()
