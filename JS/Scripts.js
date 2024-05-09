@@ -14,6 +14,22 @@ function hideCart(){
     document.getElementById("cartDesplegable").style.right = "-75%";
 }
 
+function showMenu(){
+    console.log("Enseño el menu");
+    // document.getElementById("menuDesplegable").style.display = "block";
+    document.getElementById("cajaMenu").style.right = "-70%";
+
+    var vaiable1 = 5;
+
+    console.log(vaiable1);
+}
+
+function hideMenu(){
+    console.log("Escondo el menu");
+    // document.getElementById("menuDesplegable").style.display = "none";
+    document.getElementById("cajaMenu").style.right = "-125%";
+}
+
 function showModalSend(){
     document.getElementById("modalSend").style.display = "block";
     document.getElementById("filtreOpac").style.display = "block";
@@ -55,14 +71,4 @@ function infoScroll(){
         }
         
     }
-
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-    var hamburgerIcon = document.querySelector('.hamburger-icon');
-    var menu = document.getElementById('menu');
-
-    hamburgerIcon.addEventListener('click', function() {
-        menu.classList.toggle('active');
-    });
-});

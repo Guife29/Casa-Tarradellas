@@ -462,30 +462,23 @@ footer ul{
         align-items: center;
     }
 
-    .hamburger-icon {
-        width: 30px;
-        height: 2px;
-        background-color: #595A28;
-        position: relative;
-        transition: background-color 0.3s ease;
+    #cajaMenu {
+        width: 30vw;
+        height: 100vh;
+        background-color: #F2EDDD;
+        position: fixed;
+        top: 0px;
+        display: block;
+        right: -125%;
+        transition-property: right;
+        transition-duration: 1s;    
+        z-index: 101;
     }
-    
-    .hamburger-icon::before,
-    .hamburger-icon::after {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        background-color: #595A28;
-        transition: transform 0.3s ease;
-    }
-    
-    .hamburger-icon::before {
-        top: -8px;
-    }
-    
-    .hamburger-icon::after {
-        bottom: -8px;
+
+    #hamburger-menu img{
+        scale: 80%;
+        cursor: pointer;
+        margin-right: 20px;
     }
     
     /* Estilos para el menú hamburguesa */
@@ -525,6 +518,10 @@ footer ul{
 
     #cajaMenu {
         margin-left: 10%; /* Espacio más pequeño a la izquierda */
+    }
+
+    #menuRight{
+        padding-left: 30px;
     }
 
     #menuRight a img {
