@@ -42,6 +42,10 @@ body{
     height: 140px;
 }
 
+.hidden-completa{
+    display: none;
+}
+
 #cajaMenu{
     /* background-color: green; */
     margin-left: 30%;
@@ -481,19 +485,6 @@ footer ul{
         margin-right: 20px;
     }
     
-    /* Estilos para el menú hamburguesa */
-    /* #menu {
-        display: none;
-        flex-direction: column;
-        background-color: #DAC892;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 20px 0;
-        z-index: 99;
-    } */
-    
     #menu.active {
         display: flex;
     }
@@ -508,6 +499,10 @@ footer ul{
     
     #cajaMenu ul li a {
         font-size: 1.2rem;
+    }
+
+    .hidden-completa{
+        display: block;
     }
 
     .logo {
@@ -570,8 +565,8 @@ footer ul{
         height: auto;
     }
 
-    #compra{
-        
+    #homeProduct{
+        height: 250px;
     }
 
     .imgHomeProduct1 h1, .imgHomeProduct2 h1, .imgHomeProduct3 h1 {
@@ -579,12 +574,30 @@ footer ul{
         margin-left: 0;
     }
 
+    .imgHomeProduct1 h1{
+        bottom: -100%;
+        left: -160%;
+    }
+
+    .imgHomeProduct1 h2{
+        bottom: -100%;
+        left: -160%;
+    }
+
+    .imgHomeProduct1 h3{
+        bottom: -100%;
+        left: -160%;
+    }
+
     .imgHomeProduct2 img, .imgHomeProduct3 img {
-        scale: 50%;  
+        scale: 50%; 
+        position: relative;
+        left: -30%;
+        top: 0%;
     }
 
     .imgHomeProduct1 img{
-        scale: 30%;
+        scale: 80%;
         text-align: center;
         
     }
@@ -597,6 +610,11 @@ footer ul{
 
     #cajaBotonHomeProduct {
         margin-bottom: 10vh;
+        margin-top: 100px;
+    }
+
+    #cajaBotonHomeProduct a {
+        font-size: 1.2rem;
     }
 
     .h1Noticias {
