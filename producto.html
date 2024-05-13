@@ -16,6 +16,9 @@
             <img class="logo" src="Media/logo.png" alt="">
         </div>
         <div id="cajaMenu">
+            <div class="menuClose">
+                <img class="iconeClose hidden-completa" id="iconeClosemenu" src="Media/cerrar.svg" alt="" onclick="hideMenu()">
+            </div>
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="productos.html">PRODUCTOS</a></li>
@@ -24,10 +27,35 @@
                 <li><a href="contacto.html">CONTACTO</a></li>
             </ul>
             <div id="menuRight">
-                <a href=""><img src="Media/cart.svg" alt=""></a>
-                <a href=""><img src="Media/language.svg" alt=""></a>
+                <a href="#"><img src="Media/cart.svg" alt="" onclick="showCart()"></a>
+                <a href="#"><img src="Media/language.svg" alt=""></a>
+            </div>          
+        </div>
+        <div id="cartDesplegable">
+            <div class="menuClose">
+                <img class="iconeClose" id="iconeClosemenu" src="Media/cerrar.svg" alt="" onclick="hideCart()">
+                <h1>Carrito</h1>
+            </div>
+            <hr>
+            <div class="compra">
+                <img src="Media/pizza1.png" alt="">
+                <p>Pizza de Pollo</p>
+                <input type="number" min="1">
+            </div>
+            <div class="compra2">
+                <img src="Media/fuet.png" alt="">
+                <p>Fuet Espetec</p>
+                <input type="number" min="1">
+            </div>
+            <div class="compra3">
+                <img src="Media/baconProductos.png" alt="">
+                <p>Loncheado <br> Bacon</p>
+                <input type="number" min="1">
             </div>
         </div>
+        <div id="hamburger-menu" >
+            <img class="hidden-completa" src="Media/menu.svg" alt="" onclick="showMenu()">
+        </div> 
     </nav>
 
     <section id="heather">
@@ -125,9 +153,9 @@
         </div>
         <div>
             <ul>
-                <li><a href="#">Contacto comercial</a></li>
-                <li><a href="#">Contacto consumidor</a></li>
-                <li><a href="#">Trabaja con nosotros</a></li>
+                <li><a class="escondido" href="#">Contacto comercial</a></li>
+                <li><a class="escondido" href="#">Contacto consumidor</a></li>
+                <li><a class="escondido" href="#">Trabaja con nosotros</a></li>
             </ul>
         </div>
     </footer>
@@ -142,8 +170,8 @@
                 <li><a href="">Política de privacidad</a></li>
                 <li><a href="">Política de cookies</a></li>
                 <li><a href="">Politica de seguridad</a></li>
-                <li><a href="">Sello de calidad</a></li>
-                <li><a href="">Canal ético</a></li>
+                <li><a class="escondido" href="">Sello de calidad</a></li>
+                <li><a class="escondido" href="">Canal ético</a></li>
             </ul>
         </div>
     </section>

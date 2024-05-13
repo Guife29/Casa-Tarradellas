@@ -37,6 +37,10 @@ body{
     height: 140px;
 }
 
+.hidden-completa{
+    display: none;
+}
+
 #cajaMenu{
     /* background-color: green; */
     margin-left: 30%;
@@ -77,6 +81,105 @@ body{
 
 #menuRight a img{
     margin-left: 30px;
+}
+
+#cartDesplegable{
+    width: 30vw;
+    height: 100vh;
+    background-color: #F2EDDD;
+    position: fixed;
+    top: 0px;
+    display: block;
+    right: -75%;
+    transition-property: right;
+    transition-duration: 1s;
+}
+
+.iconeClose{
+    cursor: pointer;
+    margin: 20px;
+}
+
+.menuClose{
+    display: flex;
+    align-items: center;
+}
+
+.menuClose h1{
+    margin-left: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.7rem;
+}
+
+.compra{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.compra p{
+    font-family: "Raleway", sans-serif;
+    margin-left: 40px;
+    font-size: 1.5rem;
+}
+
+.compra img{
+    height: 180px;
+}
+
+.compra input{
+    width: 80px;
+    height: 30px;
+    margin-left: 45px;
+    font-size: 1rem;
+}
+
+.compra2{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.compra2 p{
+    font-family: "Raleway", sans-serif;
+    margin-left: 15px;
+    font-size: 1.5rem;
+}
+
+.compra2 img{
+    height: 120px;
+}
+
+.compra2 input{
+    width: 80px;
+    height: 30px;
+    margin-left: 50px;
+}
+
+.compra3{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.compra3 p{
+    font-family: "Raleway", sans-serif;
+    margin-left: 65px;
+    font-size: 1.5rem;
+}
+
+.compra3 img{
+    height: 180px;
+    margin-left: 25px;
+}
+
+.compra3 input{
+    width: 80px;
+    height: 30px;
+    margin-left: 70px;
 }
 
 #heather{
@@ -330,4 +433,261 @@ footer ul{
     margin-right: 40px;
     font-size: 1.4rem;
     font-family: "Raleway", sans-serif;
+}
+
+@media only screen and (max-width: 768px){
+    nav {
+        height: 50px; 
+        width: 768px;
+        margin-top: 50px; 
+        align-items: center;
+    }
+    
+    #cajaMenu {
+        width: 30vw;
+        height: 100vh;
+        background-color: #F2EDDD;
+        position: fixed;
+        top: 0px;
+        display: block;
+        right: -125%;
+        transition-property: right;
+        transition-duration: 1s;    
+        z-index: 101;
+    }
+    
+    #hamburger-menu img{
+        scale: 80%;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    
+    #menu.active {
+        display: flex;
+    }
+    
+    #cajaMenu ul {
+        flex-direction: column;
+    }
+    
+    #cajaMenu ul li {
+        margin: 10px 0;
+    }
+    
+    #cajaMenu ul li a {
+        font-size: 1.2rem;
+    }
+    
+    .hidden-completa{
+        display: block;
+    }
+    
+    .logo {
+        height: 120px; 
+        position: relative;
+        margin-top: 70px;
+        margin-left: 50px;
+    }
+    
+    #cajaMenu {
+        margin-left: 10%; 
+    }
+    
+    #menuRight{
+        padding-left: 30px;
+    }
+    
+    #menuRight a img {
+        margin-left: 15px;
+    }
+    
+    #cajaMenu ul li a {
+        font-size: 1.3rem; 
+    }
+    
+    #cajaLogo, #cajaMenu {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #menuRight {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    
+    #menuRight a img {
+        margin-left: 15px;
+    }
+    
+    #cartDesplegable{
+        width: 40vw;
+        z-index: 102;
+    }
+    
+    .compra{
+        display: flex;
+        margin-left: 30px;
+        margin-top: 50px;
+        align-items: center;
+    }
+    
+    .compra p{
+        font-family: "Raleway", sans-serif;
+        margin-left: 10px;
+        font-size: 0.9rem;
+    }
+    
+    .compra img{
+        height: 70px;
+    }
+    
+    .compra input{
+        width: 80px;
+        height: 30px;
+        margin-left: 15px;
+        font-size: 1rem;
+    }
+    
+    .compra2{
+        display: flex;
+        margin-left: 30px;
+        margin-top: 50px;
+        align-items: center;
+    }
+    
+    .compra2 p{
+        font-family: "Raleway", sans-serif;
+        margin-left: 0px;
+        font-size: 0.9rem;
+    }
+    
+    .compra2 img{
+        height: 50px;
+    }
+    
+    .compra2 input{
+        width: 80px;
+        height: 30px;
+        margin-left: 15px;
+    }
+    
+    .compra3{
+        display: flex;
+        margin-left: 30px;
+        margin-top: 50px;
+        align-items: center;
+    }
+    
+    .compra3 p{
+        font-family: "Raleway", sans-serif;
+        margin-left: 15px;
+        font-size: 0.9rem;
+    }
+    
+    .compra3 img{
+        height: 70px;
+        margin-left: 15px;
+    }
+    
+    .compra3 input{
+        width: 80px;
+        height: 30px;
+        margin-left: 30px;
+    }
+
+    #heather {
+        height: 350px; 
+    }
+
+    #heather img {
+        height: 350px; 
+    }
+
+    #heather h1 {
+        font-size: 4rem; 
+     
+    }
+
+    #heather p {
+        font-size: 2rem; 
+     
+    }
+
+    .cajaPizza {
+        width: 90%; 
+        height: auto; 
+    }
+
+    .textoPizza {
+        width: 90%; 
+        height: auto; 
+    }
+
+    .cajaPizza h1, .cajaPizza p {
+        font-size: 2rem; 
+    }
+
+    .pizza {
+        transform: scale(0.5); 
+        margin-top: 100px; 
+       
+    }
+
+    .h1infoPizzas, .pInfoPizzas {
+        font-size: 2rem; 
+        padding-left: 120px; 
+    }
+
+    .seccionInfoPizza ul li {
+        font-size: 1.5rem;
+    }
+
+    #innerScroller img{
+        margin: 0 -40px;
+        scale: 50%;
+    }
+
+    #scroller{
+        margin-top: -150px;
+        margin-bottom: -120px;
+    }
+
+    footer ul {
+        margin-right: 0;
+        width: 70%;
+        margin-top: -50px;
+    }
+
+    footer ul li a{
+        text-decoration: none;
+        color: black;
+        font-family: "Raleway", sans-serif;
+        line-height: 35px;
+    }
+
+    #footer2 ul {
+        flex-wrap: wrap;
+    }
+
+    #footer2 ul li a{
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 0.9rem;
+        font-family: "Raleway", sans-serif;
+    }
+
+    .cajaLogoFooter2{
+        margin-right: -20px;
+    }
+
+    .cajaLogoFooter2 img{
+        width: 50%;
+        height: auto;
+    }
+
+    .escondido{
+        display: none;
+    }
 }
