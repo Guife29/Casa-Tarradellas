@@ -2,7 +2,8 @@ function showCart(){
     console.log("Enseño el menu");
     // document.getElementById("menuDesplegable").style.display = "block";
     document.getElementById("cartDesplegable").style.right = "0px";
-
+    document.getElementById("cajaMenu").style.right = "-125%";
+    
     var vaiable1 = 5;
 
     console.log(vaiable1);

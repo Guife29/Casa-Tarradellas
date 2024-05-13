@@ -459,10 +459,12 @@ footer ul{
         max-width: 768px;
     }
 
+    /* responsive nav */
+
     nav {
-        height: 50px; /* Altura más pequeña */
+        height: 50px; 
         width: 768px;
-        margin-top: 50px; /* Margen superior más pequeño */
+        margin-top: 50px; 
         align-items: center;
     }
 
@@ -506,14 +508,14 @@ footer ul{
     }
 
     .logo {
-        height: 120px; /* Altura más pequeña para el logo */
+        height: 120px; 
         position: relative;
         margin-top: 70px;
         margin-left: 50px;
     }
 
     #cajaMenu {
-        margin-left: 10%; /* Espacio más pequeño a la izquierda */
+        margin-left: 10%; 
     }
 
     #menuRight{
@@ -521,25 +523,11 @@ footer ul{
     }
 
     #menuRight a img {
-        margin-left: 15px; /* Espacio más pequeño entre los elementos del menú a la derecha */
+        margin-left: 15px;
     }
 
     #cajaMenu ul li a {
-        font-size: 1.3rem; /* Tamaño de fuente más pequeño */
-    }
-
-    #anuncio video {
-        width: 768px;
-        height: auto;
-    }
-
-    #anuncio{
-        width: 768px;
-        height: auto;
-        display: flex;
-        align-items: center;
-        overflow: hidden;
-        /* background-color: red; */
+        font-size: 1.3rem; 
     }
 
     #cajaLogo, #cajaMenu {
@@ -557,13 +545,109 @@ footer ul{
         margin-left: 15px;
     }
 
+    #cartDesplegable{
+        width: 40vw;
+        z-index: 102;
+    }
+
+    .compra{
+        display: flex;
+        margin-left: 30px;
+        margin-top: 50px;
+        align-items: center;
+    }
+    
+    .compra p{
+        font-family: "Raleway", sans-serif;
+        margin-left: 10px;
+        font-size: 0.9rem;
+    }
+    
+    .compra img{
+        height: 70px;
+    }
+    
+    .compra input{
+        width: 80px;
+        height: 30px;
+        margin-left: 15px;
+        font-size: 1rem;
+    }
+    
+    .compra2{
+        display: flex;
+        margin-left: 30px;
+        margin-top: 50px;
+        align-items: center;
+    }
+    
+    .compra2 p{
+        font-family: "Raleway", sans-serif;
+        margin-left: 0px;
+        font-size: 0.9rem;
+    }
+    
+    .compra2 img{
+        height: 50px;
+    }
+    
+    .compra2 input{
+        width: 80px;
+        height: 30px;
+        margin-left: 15px;
+    }
+    
+    .compra3{
+        display: flex;
+        margin-left: 30px;
+        margin-top: 50px;
+        align-items: center;
+    }
+    
+    .compra3 p{
+        font-family: "Raleway", sans-serif;
+        margin-left: 15px;
+        font-size: 0.9rem;
+    }
+    
+    .compra3 img{
+        height: 70px;
+        margin-left: 15px;
+    }
+    
+    .compra3 input{
+        width: 80px;
+        height: 30px;
+        margin-left: 30px;
+    }
+
+    /* responsive header */
+
+    #anuncio video {
+        width: 768px;
+        height: auto;
+    }
+
+    #anuncio{
+        width: 768px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+
+    /* responsive slider */
+
     .splide img {
-        margin-top: 100px; /* Ajusta el margen superior para las imágenes del slider */
+        margin-top: 100px; 
     }
     .splide img {
         width: 100%;
         height: auto;
     }
+
+    /* responsive productos */
 
     #homeProduct{
         height: 250px;
@@ -575,31 +659,33 @@ footer ul{
     }
 
     .imgHomeProduct1 h1{
-        bottom: -100%;
-        left: -160%;
+        bottom: -103%;
+        left: -200%;
     }
 
-    .imgHomeProduct1 h2{
-        bottom: -100%;
-        left: -160%;
+    .imgHomeProduct2 h1{
+        position: relative;
+        top: -5%;
+        left: -5%;
     }
 
-    .imgHomeProduct1 h3{
-        bottom: -100%;
-        left: -160%;
+    .imgHomeProduct3 h1{
+        top: -18%;
+        left: 5%;
     }
 
     .imgHomeProduct2 img, .imgHomeProduct3 img {
         scale: 50%; 
         position: relative;
-        left: -30%;
+        left: -45%;
         top: 0%;
     }
 
     .imgHomeProduct1 img{
         scale: 80%;
         text-align: center;
-        
+        position: relative;
+        left: -50%;
     }
 
     .imgHomeProduct1{
@@ -609,7 +695,7 @@ footer ul{
     }
 
     #cajaBotonHomeProduct {
-        margin-bottom: 10vh;
+       
         margin-top: 100px;
     }
 
@@ -617,8 +703,14 @@ footer ul{
         font-size: 1.2rem;
     }
 
+    /* responsive noticias */
+
+    #noticias{
+        margin-bottom: 100px;
+    }
+
     .h1Noticias {
-        padding-left: 20px; /* Ajusta el padding izquierdo para el título de noticias */
+        padding-left: 20px; 
     }
 
     #noticias, #aboutUS {
@@ -627,20 +719,60 @@ footer ul{
 
     .cajaNoticias {
         width: 100%;
-        padding: 0;
+        padding: 20px;
     }
 
-    .botonAboutUs {
-        margin-bottom: 10vh;
+    /* responsive aboutus */
+
+    .botonAboutUs{
+        width: 20vw;
+        height: 12vh; 
+    }
+
+    /* responsive footers */
+
+    #cajaLogoFooter img{
+        scale: 80%;
     }
 
     footer ul {
         margin-right: 0;
+        width: 70%;
+        margin-top: -50px;
+    }
+
+    footer ul li a{
+        text-decoration: none;
+        color: black;
+        font-family: "Raleway", sans-serif;
+        line-height: 35px;
     }
 
     #footer2 ul {
         flex-wrap: wrap;
     }
+
+    #footer2 ul li a{
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 0.9rem;
+        font-family: "Raleway", sans-serif;
+    }
+
+    .cajaLogoFooter2{
+        margin-right: -20px;
+    }
+
+    .cajaLogoFooter2 img{
+        width: 50%;
+        height: auto;
+    }
+
+    .escondido{
+        display: none;
+    }
+    
 }
 
 
