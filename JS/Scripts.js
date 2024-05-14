@@ -2,7 +2,11 @@ function showCart(){
     console.log("Enseño el menu");
     // document.getElementById("menuDesplegable").style.display = "block";
     document.getElementById("cartDesplegable").style.right = "0px";
-    document.getElementById("cajaMenu").style.right = "-125%";
+    
+
+    if (window.innerWidth<=768){
+        document.getElementById("cajaMenu").style.right = "-125%";
+    }
     
     var vaiable1 = 5;
 
@@ -56,9 +60,19 @@ window.onscroll = function(){
 function infoScroll(){
     if (document.documentElement.scrollTop>790 && document.documentElement.scrollTop<1840) {
 
-        document.getElementById("infoContacto").classList.add("quedateQuieto");
+        if (window.innerWidth<=768){
+            document.getElementById("infoContacto").classList.add("quieto768");
+            
+        }
 
-        document.getElementById("infoContacto").classList.remove("ahiTeQuedas");
+        else {
+
+            document.getElementById("infoContacto").classList.remove("quieto768");
+
+            document.getElementById("infoContacto").classList.add("quedateQuieto");
+
+            document.getElementById("infoContacto").classList.remove("ahiTeQuedas");
+        }
 
         console.log("si");
         // document.getElementById("infoContacto").style.position = "fixed";
