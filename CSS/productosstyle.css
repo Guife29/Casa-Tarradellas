@@ -534,5 +534,49 @@ footer ul{
 
     .cajaProductos1 ul li h1{
         margin-left: -200px;
+        position: relative;
+        left: 220px;
+    }
+
+    #cajaLogoFooter img{
+        scale: 80%;
+    }
+
+    footer ul {
+        margin-right: 0;
+        width: 70%;
+        margin-top: -50px;
+    }
+
+    footer ul li a{
+        text-decoration: none;
+        color: black;
+        font-family: "Raleway", sans-serif;
+        line-height: 35px;
+    }
+
+    #footer2 ul {
+        flex-wrap: wrap;
+    }
+
+    #footer2 ul li a{
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+        font-size: 0.9rem;
+        font-family: "Raleway", sans-serif;
+    }
+
+    .cajaLogoFooter2{
+        margin-right: -20px;
+    }
+
+    .cajaLogoFooter2 img{
+        width: 50%;
+        height: auto;
+    }
+
+    .escondido{
+        display: none;
     }
 }
