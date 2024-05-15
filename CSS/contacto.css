@@ -780,6 +780,10 @@ footer ul{
         margin: 0 auto 20px;
     }
 
+    #infoContacto{
+        display: none !important;
+    }
+
     #contacto {
         width: 50%;
     }
@@ -790,8 +794,7 @@ footer ul{
     .form3,
     .form4,
     .form5,
-    .cajaBotones,
-    #infoContacto {
+    .cajaBotones {
         width: 70%;
         margin: 0;
     }
@@ -807,19 +810,87 @@ footer ul{
     .form3,
     .form4,
     .form5,
-    .cajaBotones,
-    #infoContacto {
+    .cajaBotones {
         margin-bottom: 20px; /* Ajuste opcional para agregar espacio entre elementos */
     }
 
-    .cajaInfoContacto {
-        width: 95%;
-        margin: 0 auto;
+    .input1{
+        width: 250px;
+    }
+    .form1{
+        position: relative;
+        left: 100px;
     }
 
-    #mapa {
-        height: 650px;
+    .form1 p{
+        font-size: 1.3rem;
+    }
+
+    .input2{
+        width: 150px;
+    }
+
+    .form2{
+        position: relative;
+        left: 70px;
+    }
+
+    .form2 p{
+        font-size: 1.3rem;
+    }
+
+    .input3{
+        width: 700px;
+    }
+
+    .form3{
+        position: relative;
+        left: 40px;
+    }
+
+    .form3 p{
+        font-size: 1.3rem;
+    }
+
+    #textarea1{
+        width: 700px;
+    }
+
+    .form4{
+        position: relative;
+        left: 40px;
+    }
+
+    .form4 p{
+        font-size: 1.3rem;
+    }
+
+    .input5{
+        width: 15px;
+    }
+
+    .form5{
+        font-size: 1.3rem;
+        width: 500px;
+        position: relative;
+        left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .cajaBotones{
+        position: relative;
+        left: 40px;
+        margin-top: 40px;
+    }
+
+    #mapa{
+        height: 450px;
+    }
+
+    #mapa > iframe {
+        height: 450px;
         width: 768px;
+
     }
 
     #cajaLogoFooter img{
